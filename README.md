@@ -1,6 +1,6 @@
 # python-flask-app-on-heroku
 
-This is a template for putting hosting a python flask app with heroku. Each significant file is explained below.
+This is a template for putting a python flask app on heroku. Each significant file is explained below.
 
 ## Procfile
 Lists the processes for heroku to spin up dynos for. This app uses gunicorn for web processes, and gunicorn uses the 'app' from the wsgi file. 
